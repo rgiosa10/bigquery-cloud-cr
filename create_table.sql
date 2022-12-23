@@ -1,7 +1,7 @@
 -- drop table if it already exists
 DROP TABLE IF EXISTS `plants.flower_shop`;
 
--- my records table
+-- create flower_shop table
 CREATE TABLE `plants.flower_shop` (
   `plant_id` INT64 NOT NULL,
   `species_name` STRING,
