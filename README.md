@@ -21,9 +21,22 @@
 </br>
 
 ## Description
+This repo includes exercises for working with BigQuery and Looker, and is broken out into two different parts. 
 
+### Part 1:
+This section focuses on 1) using Python to create a BigQuery client 2) using BigQuery console to make a dataset called 'plants' 3) using Python to list the datasets in the BigQuery project in order to confirm that the new 'plants' dataset is there 4) create `create_table.sql` that contains the SQL code that will create a table in the plants dataset called flower_shop, giving it a schema and inserting values into it so it looks like this:
+
+![values_sql_table_creation.png](/Users/Ruben/Desktop/bigquery-cloud-cr/images/values_sql_table_creation.png)
 
 <br>
+
+Then I ran the code in `create_table.sql` in BigQuery to create the table:
+
+![create_flower_shop_table.png](/Users/Ruben/Desktop/bigquery-cloud-cr/images/create_flower_shop_table.png)
+
+Finally, using Python, I listed the tables in the plants dataset, and confirmed the new flower_shop table was there.
+
+### Part 2: 
 
 
 ## Setup/Installation Requirements
