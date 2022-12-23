@@ -8,8 +8,8 @@
 
 ## Technologies Used
 
-* BigQuery
-* Looker
+* Google BigQuery
+* Google Looker Studio
 * Python
 * Jupyter Notebooks
 * SQL
@@ -26,17 +26,27 @@ This repo includes exercises for working with BigQuery and Looker, and is broken
 ### Part 1:
 This section focuses on 1) using Python to create a BigQuery client 2) using BigQuery console to make a dataset called 'plants' 3) using Python to list the datasets in the BigQuery project in order to confirm that the new 'plants' dataset is there 4) create `create_table.sql` that contains the SQL code that will create a table in the plants dataset called flower_shop, giving it a schema and inserting values into it so it looks like this:
 
-![values_sql_table_creation.png](/Users/Ruben/Desktop/bigquery-cloud-cr/images/values_sql_table_creation.png)
+![values_sql_table_creation.png](./images/values_sql_table_creation.png)
 
 <br>
 
 Then I ran the code in `create_table.sql` in BigQuery to create the table:
 
-![create_flower_shop_table.png](/Users/Ruben/Desktop/bigquery-cloud-cr/images/create_flower_shop_table.png)
+![create_flower_shop_table.png](./images/create_flower_shop_table.png)
 
 Finally, using Python, I listed the tables in the plants dataset, and confirmed the new flower_shop table was there.
 
 ### Part 2: 
+
+The second part of the code review is covered in `part_two.ipynb`, which outlines the objectives, steps taken and the outputs from [US Inflation and Unemployment](https://console.cloud.google.com/marketplace/product/bls-public-data/cpi-unemployement?project=deb-01-371820) public dataset I selected from BigQuery. Below are the visualizations I put together using Looker Studio:
+
+![avg_cpi](/./images/avg_cpi.png)
+
+Description: The line graph above plots the annual CPI value by year, which is interesting as it can be seen that the period leading up to 2008 was highly inflationary, and then following the 'Great Recession' we see that CPI has a material drop until 2018 (deflationary), then resumes its increase with an abrupt spike from 2020 to 2021.
+
+![combo_graph.png](./images/combo_graph.png)
+
+Description: The combo bar and line graph above plots the CPI value by year (bar) and Unemployment rate (line). One interesting data point, is that that the drop in CPI discussed in the above description regarding the CPI line graph, seems to have a correlation with the increase in the Unemployment rate, as we see an increase in the rate over that 2008 to 2010 period.
 
 
 ## Setup/Installation Requirements
@@ -52,12 +62,13 @@ Finally, using Python, I listed the tables in the plants dataset, and confirmed 
   ```
 * Go to the new directory or open the directory folder on your desktop:
   ```bash
-  cd python-sql-cr
+  cd bigquery-cloud-cr
   ```
 * Open the directory:
   ```bash
   code .
   ```
+* If there is interest to access or view the contents of this project on BigQuery and Looker please reach out and we can discuss getting access.
 
 </br>
 
