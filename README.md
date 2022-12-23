@@ -79,7 +79,7 @@ Description: The combo bar and line graph (Graph 2) plots the CPI value by year 
   ```
 * Install the necessary items with requirements.txt:
   ```bash
-    pip install -r requirements.txt
+  pip install -r requirements.txt
   ```
 * With your virtual environment now enabled with proper requirements, open the directory:
   ```bash
