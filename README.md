@@ -69,7 +69,19 @@ Description: The combo bar and line graph (Graph 2) plots the CPI value by year 
   ```bash
   cd bigquery-cloud-cr
   ```
-* Open the directory:
+* Once in the directory you will need to set up a virtual environment in your terminal:
+  ```bash
+  python3.7 -m venv venv
+  ```
+* Then activate the environment:
+  ```bash
+  source venv/bin/activate
+  ```
+* Install the necessary items with requirements.txt:
+  ```bash
+    pip install -r requirements.txt
+  ```
+* With your virtual environment now enabled with proper requirements, open the directory:
   ```bash
   code .
   ```
