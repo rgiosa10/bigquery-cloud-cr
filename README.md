@@ -35,7 +35,11 @@ Then I ran the code in `create_table.sql` in BigQuery to create the table:
 
 Finally, using Python, I listed the tables in the plants dataset, and confirmed the new flower_shop table was there.
 
-### Part 2: The second part of the code review is covered in `part_two.ipynb`, which outlines the objectives, steps taken and the outputs from [US Inflation and Unemployment](https://console.cloud.google.com/marketplace/product/bls-public-data/cpi-unemployement?project=deb-01-371820) public dataset I selected from BigQuery. Below are the visualizations I put together using Looker Studio:
+### Part 2: The second part of the code review is covered in `part_two.ipynb`, which outlines the objectives, steps taken and the outputs from [US Inflation and Unemployment](https://console.cloud.google.com/marketplace/product/bls-public-data/cpi-unemployement?project=deb-01-371820) public dataset I selected from BigQuery.
+
+The two tables that I focused on where CPI and Unemployment Rate. CPI stands for Consumer Price Index and it is a measure of the average change over time in the prices paid by urban consumers for a market basket of consumer goods and services. Indexes are available for the U.S. and various geographic areas. The unemployment rate represents the number unemployed as a percent of the labor force.
+
+Below are the visualizations I put together using Looker Studio:
 
 <br>
 
