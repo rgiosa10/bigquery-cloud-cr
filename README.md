@@ -1,4 +1,4 @@
-# Code Review: BigQuery and Cloud Code Review
+# Code Review: BigQuery and Cloud
 
 #### By Ruben Giosa
 
